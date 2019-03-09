@@ -1,6 +1,7 @@
 [user]
 	email = eskil.jorgensen@gmail.com
 	signingkey = 0CDE7C0C665758E10C0C07E791B36C6EE37F0A15
+	name = Eskil Jörgensen
 [commit]
 	gpsign = true
 	gpgsign = true
@@ -8,3 +9,7 @@
 	program = gpg
 [push]
 	default = simple
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/eskjor/.gitignore
