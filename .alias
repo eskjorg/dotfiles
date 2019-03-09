@@ -1,0 +1,20 @@
+alias ll='ls -lhGF'
+alias c='pygmentize -g'
+alias g='googler'
+
+alias pythonn='python3 -i ~/misc/np.py'
+alias tb='tensorboard --logdir '
+
+# Git
+alias gits='git status && git branch && git stash list'
+alias gitp='git fetch --all && git reset --hard origin/master'
+alias gitcm='git checkout master && gits'
+alias gitl='git log --graph --all --oneline'
+
+# SSH & screen
+alias ssht='ssh hal001 -t "tmux -CC"'
+alias sshs='ssh hal001 -t "screen -rd"'
+alias sshsn='ssh hal001 -t screen'
+
+# nuScenes
+alias nuscenes_eval='python ~/workspace/nuscenes-devkit/python-sdk/nuscenes/eval/nuscenes_eval.py --result_path /Volumes/se1/workspace/3dod/experiments/test-nuscenes/detections/nuscenes_results.json --eval_set teaser_val'
