@@ -1,0 +1,8 @@
+https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+https://sourabhbajaj.com/mac-setup/
+https://github.com/webpro/awesome-dotfiles
+
+https://github.com/mathiasbynens/dotfiles
+https://github.com/charlax/dotfiles
+
+https://hacker-tools.github.io
