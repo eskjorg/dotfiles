@@ -4,10 +4,10 @@ source ~/.env
 
 source ~/.git/git-completion.bash
 
-if [ -f $HOME/.alias ]; then
+# Alias
+[ -f $HOME/.alias ] && \
     source $HOME/.alias
-fi
 
-if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
-fi
+# Bash completion
+[ -f `brew --prefix`/etc/bash_completion ] && \
+    source `brew --prefix`/etc/bash_completion
