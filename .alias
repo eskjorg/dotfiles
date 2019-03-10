@@ -1,12 +1,17 @@
 alias ll='ls -lhGF'
+alias la='ls -a'
 alias c='pygmentize -g'
 alias g='googler'
 
 alias pythonn='python3 -i ~/misc/np.py'
 alias tb='tensorboard --logdir '
 
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+
 # Dotfiles
-alias dotf='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
+alias dot='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
 
 # Git
 alias gits='git status && git branch && git stash list'
