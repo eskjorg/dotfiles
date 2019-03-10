@@ -6,3 +6,6 @@ https://github.com/mathiasbynens/dotfiles
 https://github.com/charlax/dotfiles
 
 https://hacker-tools.github.io
+
+### VIM
+https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim
