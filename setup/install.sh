@@ -72,6 +72,13 @@ brew cask install \
 # Add Sublime Text as `subl` command
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+# Add vscode as `code` command
+cat << EOF >> ~/.env
+# Add Visual Studio Code (code)
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+EOF
+
+
 # More Apps
 brew cask install \
     disk-inventory-x \
