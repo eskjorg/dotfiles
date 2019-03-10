@@ -9,14 +9,26 @@ brew tap caskroom/cask
 
 # Basic tools
 brew install \
+    git \
     zsh \
     bash-completion \
     docker-completion
     wget \
     tree \
-    #fsf \
-    #ach \
+    sshfs \
+    ssh-copy-id
 
+### load .files from bare repo
+git clone --bare git@github.com:eskjorg/dotfiles.git ~/workspace/dotfiles
+alias dot='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
+dot config --local status.showUntrackedFiles no
+dot checkout
+dot push -u origin master #set up 'master' to track remote branch 'master'
+
+# Shell and completion
+chsh -s $(which zsh)
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh  --create-dirs -o ~/.git/git-completion.zsh
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash  --create-dirs -o ~/.git/git-completion.bash
 # oh-my-zsh
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -40,24 +52,20 @@ brew cask install \
     alfred \
     anaconda \
     appcleaner \
-    #caffeine \
     cheatsheet \
     docker \
     dropbox \
     google-chrome \
     google-drive \
     google-hangouts \
-    #latexian \
     pdftk \
     spectacle \
     spotify \
     sublime-text \
-    #superduper \
     totalfinder \
-    #valentina-studio \
     vlc
 
-# Add `subl` command
+# Add Sublime Text as `subl` command
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 # More Apps
@@ -66,7 +74,9 @@ brew cask install \
     gpg-suite-no-mail \
     iterm2 \
     macdown \
+    microsoft-office \
     mendeley \
+    osxfuse \
     qbittorrent \
     slack \
     texshop \
