@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+	"sync-rsync.local": "/Users/eskjor/workspace/3dod",
+	"sync-rsync.remote":"eskjor@hal001.dli.zenuity.com:/home/eskjor/workspace/3dod",
+    "sync-rsync.exclude": [
+        "*",
+        "*/.*"
+    ],
+    "sync-rsync.include": [
+        "*/",
+        "**/*.py",
+        "**/*.json",
+        "**/*.html",
+        "**/*.txt",
+        "Dockerfile*"
+    ],
+    "sync-rsync.onSaveIndividual": true
+}

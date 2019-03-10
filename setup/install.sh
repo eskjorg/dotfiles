@@ -77,6 +77,10 @@ cat << EOF >> ~/.env
 # Add Visual Studio Code (code)
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
+# Install extensions
+cat ~/.vscode_extensions | xargs -L1 code --install-extension
+# Link settings
+ln -s '/Users/eskjor/.vscode.settings.json /Users/eskjor/Library/Application\ Support/Code/User/settings.json'
 
 
 # More Apps
