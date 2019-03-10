@@ -32,6 +32,10 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 # oh-my-zsh
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# SSH keys
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
+
 # Gitignore
 curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 
