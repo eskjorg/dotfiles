@@ -1,6 +1,6 @@
 # dotfiles [WIP]
 
-The purpose of this repo is to backup configs and to facilitate a the setup of a fresh macOS machine.
+The purpose of this repo is to backup configs and to facilitate a the setup of a fresh macOS machine. See scripts in `/setup`.
 
 A list of sources and inspiration for a good setup can be found [here](setup/sources.txt).
 
@@ -21,4 +21,4 @@ The rest of preferences will be set automatically by the `defaults-write.sh` scr
 
 Also, using your preferred secure method:
 
-* Add you private encryption keys to the computer
+* Add your private encryption keys to the computer

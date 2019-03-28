@@ -156,11 +156,9 @@ defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 ##########
 
 #Minimize windows into their application’s icon 
-defaults write com.apple.dock minimize-to-application -bool true
+#defaults write com.apple.dock minimize-to-application -bool true
 #Remove the animation when hiding or showing the dock
 defaults write com.apple.dock autohide-time-modifier -float 0
-
-# Dock left
 
 ####################
 ##Software update ##

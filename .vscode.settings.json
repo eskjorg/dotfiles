@@ -14,5 +14,10 @@
         "**/*.txt",
         "Dockerfile*"
     ],
-    "sync-rsync.onSaveIndividual": true
+    "sync-rsync.onSaveIndividual": true,
+    "window.zoomLevel": 1,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.*": true
+    }
 }
