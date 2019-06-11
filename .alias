@@ -6,12 +6,19 @@ alias g='googler'
 alias pythonn='python3 -i ~/misc/np.py'
 alias tb='tensorboard --logdir '
 
+# Command priorities
+alias curl='/usr/bin/curl'
+
 # Navigation
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ....='cd ../../..'
 
 # Dotfiles
 alias dot='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
+
+# Matlab
+alias matlab="/Applications/MATLAB_R2019a.app/bin/matlab -nojvm -nodesktop"
 
 # Git
 alias gits='git status && git branch && git stash list'
