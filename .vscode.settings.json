@@ -1,6 +1,5 @@
 {
-    "workbench.colorTheme": "Tomorrow Night Blue",
-	"sync-rsync.local": "/Users/eskjor/workspace/3dod",
+    "sync-rsync.local": "/Users/eskjor/workspace/3dod",
 	"sync-rsync.remote":"eskjor@hal001.dli.zenuity.com:/home/eskjor/workspace/3dod",
     "sync-rsync.exclude": [
         "*",
@@ -15,9 +14,12 @@
         "Dockerfile*"
     ],
     "sync-rsync.onSaveIndividual": true,
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 0,
     "files.exclude": {
         "**/__pycache__": true,
         "**/.*": true
-    }
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "latex-workshop.message.update.show": false,
+    "explorer.confirmDragAndDrop": false
 }
