@@ -95,7 +95,6 @@ brew cask install \
     qbittorrent \
     slack \
     texshop \
-    the-unarchiver \
     vagrant \
     vagrant-manager \
     virtualbox \
