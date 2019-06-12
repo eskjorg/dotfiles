@@ -17,7 +17,7 @@ In order not to become insane:
 
 Clone this repo as bare. This also checks out the repo, placing dotfiles in the home directory:
 
-* ```curl -fsSL https://raw.githubusercontent.com/eskjorg/dotfiles/master/setup/bootstrap.sh```
+* ```curl -fsSL https://raw.githubusercontent.com/eskjorg/dotfiles/master/setup/bootstrap.sh | sh```
 
 Then, run the installation script:
 
