@@ -18,13 +18,6 @@ brew install \
     sshfs \
     ssh-copy-id
 
-### load .files from bare repo
-git clone --bare git@github.com:eskjorg/dotfiles.git ~/workspace/dotfiles
-alias dot='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
-dot config --local status.showUntrackedFiles no
-dot checkout
-dot push -u origin master #set up 'master' to track remote branch 'master'
-
 # Shell and completion
 chsh -s $(which zsh)
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.zsh  --create-dirs -o ~/.git/git-completion.zsh
@@ -106,8 +99,7 @@ conda install -y -c pytorch \
     torchvision
 conda install -y -c conda-forge \
     attrdict \
-    opencv \
-    tensorboardX
+    opencv
 conda clean -ya
 
 # Vagrant
