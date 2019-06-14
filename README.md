@@ -10,6 +10,7 @@ First some manual things:
 
 * Add your *Internet accounts*. This will download your iCloud keychain and much more.
 * Update the OS: *Apple menu () > About This Mac > Software Update.*
+* Command Line Tools ```xcode-select --install```
 
 In order not to become insane:
 

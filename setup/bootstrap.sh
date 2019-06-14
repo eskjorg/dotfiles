@@ -6,3 +6,7 @@ alias dot='git --git-dir=$HOME/workspace/dotfiles/ --work-tree=$HOME'
 dot config --local status.showUntrackedFiles no 
 dot checkout -f
 dot push -u origin master #set up 'master' to track remote branch 'master'
+
+### restart terminal
+echo "Please restart the terminal" 
+exit
