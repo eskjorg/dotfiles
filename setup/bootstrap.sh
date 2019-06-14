@@ -8,5 +8,5 @@ dot checkout -f
 dot push -u origin master #set up 'master' to track remote branch 'master'
 
 ### restart terminal
-echo "Please restart the terminal" 
+echo "Please restart the terminal"
 exit

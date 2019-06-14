@@ -50,20 +50,25 @@ brew cask install \
     docker \
     dropbox \
     google-chrome \
-    google-drive \
+    google-backup-and-sync \
     google-hangouts \
-    pdftk \
     spectacle \
     spotify \
     sublime-text \
-    totalfinder \
     vlc
 
 # Add Sublime Text as `subl` command
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+# Add anaconda to path
+cat << EOF >> ~/.env
+# Add Anaconda
+export PATH="/usr/local/anaconda3/bin:$PATH"
+EOF
+
 # Add vscode as `code` command
 cat << EOF >> ~/.env
+
 # Add Visual Studio Code (code)
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF

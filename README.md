@@ -22,7 +22,7 @@ Clone this repo as bare. This also checks out the repo, placing dotfiles in the 
 
 Then, run the installation script:
 
-* ```~/setup/install.sh```
+* ```bash ~/setup/install.sh```
 
 The OS preferences will be set automatically by:
 
