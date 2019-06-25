@@ -9,7 +9,7 @@ brew install \
     git \
     zsh \
     bash-completion \
-    docker-completion
+    docker-completion \
     wget \
     tree \
     sshfs \
@@ -21,6 +21,9 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash  --create-dirs -o ~/.git/git-completion.bash
 # oh-my-zsh
 #sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# iTerm shell integration
+curl -L https://iterm2.com/shell_integration/zsh -o ~/.iterm2_shell_integration.zsh
 
 # SSH keys
 eval "$(ssh-agent -s)"
@@ -62,6 +65,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 
 # Add anaconda to path
 cat << EOF >> ~/.env
+
 # Add Anaconda
 export PATH="/usr/local/anaconda3/bin:$PATH"
 EOF
@@ -90,6 +94,7 @@ brew cask install \
     qbittorrent \
     slack \
     texshop \
+    mactex \
     vagrant \
     vagrant-manager \
     virtualbox \

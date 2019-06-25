@@ -23,3 +23,6 @@ source ~/.git/git-completion.zsh
 
 # Environment
 source ~/.env
+
+# iTerm integration
+source ~/.iterm2_shell_integration.zsh
