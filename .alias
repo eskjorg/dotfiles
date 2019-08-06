@@ -1,4 +1,5 @@
 alias ll='ls -lhGF'
+alias lla='ll -a'
 alias la='ls -a'
 alias c='pygmentize -g'
 alias g='googler'

@@ -22,7 +22,7 @@ sudo scutil --set LocalHostName "$MY_NAME" && \
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "$MY_NAME"
 
 # Disable the sound effects on boot
-#sudo nvram SystemAudioVolume=" "
+sudo nvram SystemAudioVolume=" "
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Stockholm" > /dev/null

@@ -13,7 +13,8 @@ brew install \
     wget \
     tree \
     sshfs \
-    ssh-copy-id
+    ssh-copy-id \
+    googler
 
 # Shell and completion
 chsh -s $(which zsh)
