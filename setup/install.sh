@@ -5,6 +5,7 @@
 brew tap caskroom/cask
 
 # Basic tools
+brew cask install osxfuse
 brew install \
     git \
     zsh \
@@ -91,7 +92,6 @@ brew cask install \
     macdown \
     microsoft-office \
     mendeley \
-    osxfuse \
     qbittorrent \
     slack \
     texshop \

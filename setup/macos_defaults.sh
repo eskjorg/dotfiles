@@ -15,7 +15,7 @@ sudo -v
 ############
 
 # Computer name
-export MY_NAME="ZenMacBook"
+export MY_NAME="Eskil's MacBook"
 sudo scutil --set ComputerName "$MY_NAME" && \
 sudo scutil --set HostName "$MY_NAME" && \
 sudo scutil --set LocalHostName "$MY_NAME" && \
@@ -45,7 +45,7 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Reveal IP address, hostname, OS version, etc. when clicking the clock in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
 #Add a message to the login screen:
-sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Welcome to Eskil's Zenuity MacBook"
+sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "Welcome to Eskil's MacBook"
 defaults write -g userMenuExtraStyle -int 2 # Show fast user switching menu as: icon
 
 ## Finder ##
