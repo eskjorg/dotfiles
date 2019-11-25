@@ -53,7 +53,7 @@ defaults write -g userMenuExtraStyle -int 2 # Show fast user switching menu as: 
 # Show the Status Bar, this can also be toggled on the View menu:
 defaults write com.apple.finder ShowStatusBar -bool true
 # Start the status bar Path at $HOME (instead of Hard drive)
-defaults write /Library/Preferences/com.apple.finder PathBarRootAtHome -bool
+defaults write com.apple.finder PathBarRootAtHome -bool true
 
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # defaults write com.apple.finder CreateDesktop -bool FALSE
@@ -195,5 +195,5 @@ sudo softwareupdate --schedule ON
 ###########
 
 # For: Fuse / sshfs
-sudo chmod +a "eskjor:allow:add_subdirectory" /Volumes
+sudo chmod +a "$(whoami):allow:add_subdirectory" /Volumes
 

@@ -100,6 +100,7 @@ brew cask install \
     vagrant-manager \
     virtualbox \
     visual-studio-code \
+    xquartz
 
 # Python
 conda install -y -c pytorch \
