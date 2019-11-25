@@ -3,7 +3,7 @@
 #path=(~/.local/bin /other/things/in/path $path[@])
 
 # Autocompletion
-zstyle ':completion:*:*:git:*' script ~/.git/git-completion.bash
+zstyle ':completion:*:*:git:*' script ~/.git/git-completion.zsh
 #fpath=(~/.zsh $fpath)
 autoload -Uz compinit
 compinit
@@ -17,9 +17,6 @@ prompt adam2
 if [ -f $HOME/.alias ]; then
     source $HOME/.alias
 fi
-
-# Git
-source ~/.git/git-completion.zsh
 
 # Environment
 source ~/.env
