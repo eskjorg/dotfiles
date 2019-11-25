@@ -26,6 +26,7 @@ alias gits='git status && git branch && git stash list'
 alias gitp='git fetch --all && git reset --hard origin/master'
 alias gitcm='git checkout master && gits'
 alias gitl='git log --graph --all --oneline'
+alias gitd='clear; git diff'
 
 # SSH & screen
 alias ssht='ssh hal001 -t "tmux -CC"'
